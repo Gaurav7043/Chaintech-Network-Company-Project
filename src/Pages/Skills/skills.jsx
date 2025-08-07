@@ -37,7 +37,6 @@ export default function Skills() {
                         >
                             <div className="relative">
                                 <img src={img} alt={`${item.percentage} circle`} className="!w-[600px] !h-[100%] object-contain" />
-                                {/* <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-xl font-bold"> */}
                                 <h1 className="absolute !top-[50%] !left-[50%] transform !translate-x-[-50%] translate-y-[-50%]  text-white text-xl font-bold">
                                     {item.percentage}
                                 </h1>
